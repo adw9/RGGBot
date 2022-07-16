@@ -9,7 +9,8 @@ using System.Threading.Tasks;
 using Discord.Commands;
 using System.Reflection;
 
-namespace bot
+
+namespace bot.Services
 {
     public class CommandList : InteractionModuleBase<SocketInteractionContext>
     {
