@@ -39,7 +39,7 @@ namespace bot.Services
 
             // build the configuration and assign to _config          
             _config = _builder.Build();
-            _testGuildId = ulong.Parse(_config["TestGuildId"]);
+            //_testGuildId = ulong.Parse(_config["TestGuildId"]);
         }
 
         public async Task MainAsync()
